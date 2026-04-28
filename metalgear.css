@@ -2,8 +2,9 @@
   position: fixed;
   bottom: 20px;
   left: 20px;
-}
-
-.metalgear img {
   width: 64px;
+  height: 64px;
+  background: url("https://i.ibb.co/hxKDVkxn/metal-gear-rex-right.webp"); 
+  background-size: cover;
+  background-repeat: no-repeat;
 }
