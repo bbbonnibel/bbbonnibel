@@ -1,0 +1,9 @@
+.metalgear {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+
+.metalgear img {
+  width: 64px;
+}
