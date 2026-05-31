@@ -1,7 +1,7 @@
 .metalgear {
   position: fixed;
-  bottom: 20px;
-  left: 20px;
+  bottom: var(--cs-bean-offset-bottom, 20px);
+  left: var(--cs-bean-offset-left, 20px);
   width: 64px;
   height: 64px;
   background: url("https://i.ibb.co/hxKDVkxn/metal-gear-rex-right.webp"); 
