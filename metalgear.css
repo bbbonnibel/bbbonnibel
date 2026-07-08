@@ -1,4 +1,5 @@
 .metalgear {
+  --shadow: transparent;
   position: fixed;
   bottom: var(--cs-bean-offset-bottom, 20px);
   left: var(--cs-bean-offset-left, 20px);
@@ -7,9 +8,5 @@
   background: url("https://i.ibb.co/hxKDVkxn/metal-gear-rex-right.webp"); 
   background-size: cover;
   background-repeat: no-repeat;
-  
-  &.shadow {
-    --shadow: transparent;
-    filter: drop-shadow(-5px 5px var(--shadow));
-  }
+  filter: drop-shadow(-5px 5px var(--shadow));
 }
